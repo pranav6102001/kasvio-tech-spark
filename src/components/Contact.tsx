@@ -106,16 +106,20 @@ const Contact = () => {
               </CardHeader>
               <CardContent className="space-y-3 text-sm">
                 <div>
+                  <span className="text-muted-foreground">Company:</span>
+                  <span className="text-foreground font-medium ml-2">Kasvio Technology</span>
+                </div>
+                <div>
                   <span className="text-muted-foreground">Founder & CEO:</span>
                   <span className="text-foreground font-medium ml-2">Pranav Kasture</span>
                 </div>
                 <div>
-                  <span className="text-muted-foreground">Client:</span>
-                  <span className="text-foreground font-medium ml-2">TECHSPARK SOFTWARE SOLUTIONS PVT LTD</span>
+                  <span className="text-muted-foreground">Udyam Registration:</span>
+                  <span className="text-foreground font-medium ml-2">UDYAM-MH-23-0327987</span>
                 </div>
                 <div>
-                  <span className="text-muted-foreground">Registration:</span>
-                  <span className="text-foreground font-medium ml-2">UDYAM-MH-23-0327987</span>
+                  <span className="text-muted-foreground">Client Partner:</span>
+                  <span className="text-foreground font-medium ml-2">TECHSPARK SOFTWARE SOLUTIONS PVT LTD</span>
                 </div>
               </CardContent>
             </Card>

@@ -122,15 +122,19 @@ const About = () => {
             {/* Company Registration */}
             <Card className="border-0 bg-primary/5">
               <CardContent className="p-6">
-                <h3 className="font-semibold text-foreground mb-3">Company Registration</h3>
+                <h3 className="font-semibold text-foreground mb-3">Company Details</h3>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Client:</span>
-                    <span className="text-foreground font-medium">TECHSPARK SOFTWARE SOLUTIONS PVT LTD</span>
+                    <span className="text-muted-foreground">Company:</span>
+                    <span className="text-foreground font-medium">Kasvio Technology</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Udyam Registration:</span>
                     <span className="text-foreground font-medium">UDYAM-MH-23-0327987</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Client Partner:</span>
+                    <span className="text-foreground font-medium">TECHSPARK SOFTWARE SOLUTIONS PVT LTD</span>
                   </div>
                 </div>
               </CardContent>

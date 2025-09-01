@@ -101,10 +101,13 @@ const Footer = () => {
               <p className="mt-1">
                 Founder & CEO: <span className="font-medium">Pranav Kasture</span>
               </p>
+              <p className="mt-1">
+                Udyam Registration: <span className="font-medium">UDYAM-MH-23-0327987</span>
+              </p>
             </div>
             <div className="text-sm text-blue-100 md:text-right">
-              <p>TECHSPARK SOFTWARE SOLUTIONS PVT LTD</p>
-              <p>Udyam Registration: UDYAM-MH-23-0327987</p>
+              <p>Client Partner:</p>
+              <p><span className="font-medium">TECHSPARK SOFTWARE SOLUTIONS PVT LTD</span></p>
             </div>
           </div>
         </div>
