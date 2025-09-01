@@ -202,6 +202,7 @@ const Contact = () => {
                     <select className="w-full px-3 py-2 border border-border rounded-md bg-background text-foreground focus:ring-2 focus:ring-primary focus:border-transparent">
                       <option value="">Select a service</option>
                       <option value="customer-support">Customer Support</option>
+                      <option value="sales-services">Sales Services</option>
                       <option value="data-entry">Data Entry & Processing</option>
                       <option value="virtual-assistance">Virtual Assistance</option>
                       <option value="back-office">Back Office Operations</option>

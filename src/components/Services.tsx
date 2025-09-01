@@ -31,6 +31,12 @@ const Services = () => {
     },
     {
       icon: BarChart3,
+      title: "Sales Services",
+      description: "Professional sales support to drive revenue growth through lead generation, conversion, and customer acquisition.",
+      features: ["Lead Generation", "Sales Calls", "CRM Management", "Sales Analytics & Reporting"]
+    },
+    {
+      icon: Users,
       title: "Back Office Operations",
       description: "Comprehensive back-office support including accounting, HR, and administrative functions.",
       features: ["Payroll Processing", "Invoice Management", "HR Administration", "Compliance Support"]
