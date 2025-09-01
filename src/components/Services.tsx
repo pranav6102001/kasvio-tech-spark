@@ -24,34 +24,16 @@ const Services = () => {
       features: ["Document Digitization", "Data Validation", "CRM Data Entry", "Database Management"]
     },
     {
-      icon: Users,
-      title: "Virtual Assistance",
-      description: "Dedicated virtual assistants to handle administrative tasks and support your business operations.",
-      features: ["Administrative Support", "Appointment Scheduling", "Research Services", "Content Management"]
-    },
-    {
       icon: BarChart3,
       title: "Sales Services",
       description: "Professional sales support to drive revenue growth through lead generation, conversion, and customer acquisition.",
       features: ["Lead Generation", "Sales Calls", "CRM Management", "Sales Analytics & Reporting"]
     },
     {
-      icon: Users,
-      title: "Back Office Operations",
-      description: "Comprehensive back-office support including accounting, HR, and administrative functions.",
-      features: ["Payroll Processing", "Invoice Management", "HR Administration", "Compliance Support"]
-    },
-    {
       icon: Clock,
       title: "Technical Support",
       description: "Expert technical assistance and IT support services for your customers and internal teams.",
       features: ["Level 1-3 Support", "Software Troubleshooting", "Hardware Support", "System Monitoring"]
-    },
-    {
-      icon: Shield,
-      title: "Quality Assurance",
-      description: "Rigorous quality control processes ensuring the highest standards in all service deliveries.",
-      features: ["Process Auditing", "Performance Monitoring", "Compliance Checking", "Risk Assessment"]
     }
   ];
 
@@ -66,12 +48,12 @@ const Services = () => {
             Comprehensive BPO Services
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            From customer support to data processing, we provide end-to-end business process outsourcing 
+            From customer support to technical assistance, we provide specialized business process outsourcing 
             solutions tailored to your specific needs and industry requirements.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {services.map((service, index) => (
             <Card 
               key={index} 

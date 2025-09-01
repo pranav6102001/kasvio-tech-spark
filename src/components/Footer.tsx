@@ -31,11 +31,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center text-blue-100">
                 <Phone size={16} className="mr-3 flex-shrink-0" />
-                <span className="text-sm">24/7 Global Support</span>
+                <span className="text-sm">+91-8830013733</span>
               </div>
               <div className="flex items-center text-blue-100">
                 <MapPin size={16} className="mr-3 flex-shrink-0" />
-                <span className="text-sm">Mumbai, Maharashtra, India</span>
+                <span className="text-sm">Nashik, Maharashtra, India</span>
               </div>
             </div>
           </div>
@@ -86,10 +86,7 @@ const Footer = () => {
               <li>Customer Support</li>
               <li>Sales Services</li>
               <li>Data Entry & Processing</li>
-              <li>Virtual Assistance</li>
-              <li>Back Office Operations</li>
               <li>Technical Support</li>
-              <li>Quality Assurance</li>
             </ul>
           </div>
         </div>

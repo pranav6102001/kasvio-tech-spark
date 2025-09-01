@@ -41,13 +41,13 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      content: "+91 (0) 000-000-0000",
+      content: "+91-8830013733",
       description: "Mon-Fri from 9am to 6pm"
     },
     {
       icon: MapPin,
       title: "Visit Us",
-      content: "Mumbai, Maharashtra, India",
+      content: "Nashik, Maharashtra, India",
       description: "Come say hello at our office"
     },
     {
@@ -204,10 +204,7 @@ const Contact = () => {
                       <option value="customer-support">Customer Support</option>
                       <option value="sales-services">Sales Services</option>
                       <option value="data-entry">Data Entry & Processing</option>
-                      <option value="virtual-assistance">Virtual Assistance</option>
-                      <option value="back-office">Back Office Operations</option>
                       <option value="technical-support">Technical Support</option>
-                      <option value="quality-assurance">Quality Assurance</option>
                       <option value="custom">Custom Solution</option>
                     </select>
                   </div>

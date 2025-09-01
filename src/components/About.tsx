@@ -11,10 +11,8 @@ import {
 
 const About = () => {
   const achievements = [
-    { icon: Globe, label: "Global Reach", value: "15+ Countries" },
-    { icon: Users, label: "Expert Team", value: "200+ Professionals" },
-    { icon: Award, label: "Industry Experience", value: "10+ Years" },
-    { icon: TrendingUp, label: "Client Retention", value: "95%" }
+    { icon: TrendingUp, label: "Client Retention", value: "95%" },
+    { icon: Award, label: "Service Excellence", value: "ISO Certified" }
   ];
 
   const certifications = [
