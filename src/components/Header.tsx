@@ -20,7 +20,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-3">
             <img 
-              src={kasvioLogo} 
+              src="/lovable-uploads/3612cee4-5d30-4d05-a0d2-d7ecc4b02755.png" 
               alt="Kasvio Technology" 
               className="h-8 w-auto"
             />
