@@ -75,6 +75,14 @@ const Footer = () => {
               </li>
               <li>
                 <button 
+                  onClick={() => scrollToSection('clients')}
+                  className="text-blue-100 hover:text-white transition-colors text-sm"
+                >
+                  Clients
+                </button>
+              </li>
+              <li>
+                <button 
                   onClick={() => scrollToSection('contact')}
                   className="text-blue-100 hover:text-white transition-colors text-sm"
                 >
@@ -109,8 +117,8 @@ const Footer = () => {
               </p>
             </div>
             <div className="text-sm text-blue-100 md:text-right">
-              <p>Client Partner:</p>
-              <p><span className="font-medium">TECHSPARK SOFTWARE SOLUTIONS PVT LTD</span></p>
+              <p>Delivering Excellence Since 2023</p>
+              <p><span className="font-medium">Your Trusted BPO Partner</span></p>
             </div>
           </div>
         </div>
