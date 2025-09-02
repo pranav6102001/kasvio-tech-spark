@@ -82,7 +82,7 @@ const About = () => {
               <CardContent className="p-8 text-center">
                 <div className="w-20 h-20 rounded-full overflow-hidden mx-auto mb-4">
                   <img 
-                    src={pranavPhoto} 
+                    src="/lovable-uploads/02eb3173-49b5-4adf-ab73-ab9b546b13ca.png" 
                     alt="Pranav Kasture, Founder & CEO" 
                     className="w-full h-full object-cover"
                   />
