@@ -78,8 +78,8 @@ const Hero = () => {
                 <div className="flex items-center justify-center mb-2">
                   <Users size={24} className="text-primary" />
                 </div>
-                <div className="text-2xl font-bold text-foreground">500+</div>
-                <div className="text-sm text-muted-foreground">Happy Clients</div>
+                <div className="text-2xl font-bold text-foreground">1</div>
+                <div className="text-sm text-muted-foreground">Happy Client</div>
               </div>
               <div className="text-center">
                 <div className="flex items-center justify-center mb-2">
@@ -108,7 +108,7 @@ const Hero = () => {
               </div>
               <div className="absolute -bottom-4 -right-4 bg-background/90 backdrop-blur-sm p-4 rounded-xl shadow-card">
                 <div className="text-center">
-                  <div className="text-lg font-bold text-primary">ISO 27001</div>
+                  <div className="text-lg font-bold text-primary">Udyam</div>
                   <div className="text-xs text-muted-foreground">Certified</div>
                 </div>
               </div>

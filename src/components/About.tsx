@@ -9,9 +9,9 @@ const About = () => {
   }, {
     icon: Award,
     label: "Service Excellence",
-    value: "ISO Certified"
+    value: "Udyam Certified"
   }];
-  const certifications = ["ISO 27001 Certified", "GDPR Compliant", "SOC 2 Type II", "HIPAA Compliant"];
+  const certifications = ["Udyam Certified", "GDPR Compliant", "SOC 2 Type II", "HIPAA Compliant"];
   return <section id="about" className="py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -65,7 +65,11 @@ const About = () => {
             <div className="mb-8">
               
               <div className="flex flex-wrap gap-2">
-                {certifications.map((cert, index) => {})}
+                {certifications.map((cert, index) => (
+                  <Badge key={index} variant="secondary" className="px-3 py-1">
+                    {cert}
+                  </Badge>
+                ))}
               </div>
             </div>
           </div>
