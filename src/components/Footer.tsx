@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin, Globe } from "lucide-react";
+import kasvioLogo from "@/assets/kasvio-logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -16,8 +17,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-white/20 rounded-lg"></div>
+            <div className="flex items-center space-x-3 mb-4">
+              <img 
+                src={kasvioLogo} 
+                alt="Kasvio Technology" 
+                className="h-8 w-auto"
+              />
               <span className="text-xl font-bold">Kasvio Technology</span>
             </div>
             <p className="text-blue-100 mb-6 max-w-md">

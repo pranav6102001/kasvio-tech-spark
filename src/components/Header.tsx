@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import kasvioLogo from "@/assets/kasvio-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,8 +18,12 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-primary rounded-lg"></div>
+          <div className="flex items-center space-x-3">
+            <img 
+              src={kasvioLogo} 
+              alt="Kasvio Technology" 
+              className="h-8 w-auto"
+            />
             <span className="text-xl font-bold text-foreground">Kasvio Technology</span>
           </div>
 

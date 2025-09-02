@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Award, Globe, Target, TrendingUp, CheckCircle, Users } from "lucide-react";
+import pranavPhoto from "@/assets/pranav-kasture.png";
 const About = () => {
   const achievements = [{
     icon: TrendingUp,
@@ -11,7 +12,7 @@ const About = () => {
     label: "Service Excellence",
     value: "Udyam Certified"
   }];
-  const certifications = ["Udyam Certified", "GDPR Compliant", "SOC 2 Type II", "HIPAA Compliant"];
+  const certifications = ["Udyam Certified"];
   return <section id="about" className="py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -79,8 +80,12 @@ const About = () => {
             {/* CEO Card */}
             <Card className="border-0 bg-gradient-card shadow-elegant">
               <CardContent className="p-8 text-center">
-                <div className="w-20 h-20 bg-gradient-primary rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
-                  PK
+                <div className="w-20 h-20 rounded-full overflow-hidden mx-auto mb-4">
+                  <img 
+                    src={pranavPhoto} 
+                    alt="Pranav Kasture, Founder & CEO" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-2">Pranav Kasture</h3>
                 <p className="text-primary font-medium mb-3">Founder & CEO</p>
