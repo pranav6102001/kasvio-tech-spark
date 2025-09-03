@@ -7,7 +7,7 @@ const Clients = () => {
     {
       name: "TechSpark Software Solutions",
       industry: "Software Development",
-      services: ["Sales", "Customer Support", "Technical Support"],
+      services: ["Sales"],
       testimonial: "Kasvio Technology has transformed our customer support operations with their professional and efficient service delivery.",
       rating: 5,
       logo: "🚀"
