@@ -7,57 +7,17 @@ const Clients = () => {
     {
       name: "TechSpark Software Solutions",
       industry: "Software Development",
-      services: ["Customer Support", "Technical Support"],
+      services: ["Sales", "Customer Support", "Technical Support"],
       testimonial: "Kasvio Technology has transformed our customer support operations with their professional and efficient service delivery.",
       rating: 5,
       logo: "🚀"
-    },
-    {
-      name: "Global Finance Corp",
-      industry: "Financial Services", 
-      services: ["Data Processing", "Back Office Operations"],
-      testimonial: "Outstanding data processing capabilities and attention to detail. Highly recommended for financial operations.",
-      rating: 5,
-      logo: "💼"
-    },
-    {
-      name: "RetailMax Solutions",
-      industry: "E-commerce",
-      services: ["Sales Support", "Customer Service"],
-      testimonial: "Their sales support team helped us increase our conversion rates by 40%. Exceptional service quality.",
-      rating: 5,
-      logo: "🛒"
-    },
-    {
-      name: "HealthCare Plus",
-      industry: "Healthcare",
-      services: ["Administrative Support", "Data Entry"],
-      testimonial: "Reliable and accurate administrative support that allows us to focus on patient care.",
-      rating: 5,
-      logo: "🏥"
-    },
-    {
-      name: "EduTech Innovations",
-      industry: "Education Technology",
-      services: ["Customer Support", "Technical Assistance"],
-      testimonial: "Professional support team that understands our technical requirements perfectly.",
-      rating: 5,
-      logo: "📚"
-    },
-    {
-      name: "Manufacturing Pro",
-      industry: "Manufacturing",
-      services: ["Supply Chain Support", "Data Management"],
-      testimonial: "Streamlined our supply chain operations with their efficient data management services.",
-      rating: 5,
-      logo: "🏭"
     }
   ];
 
   const stats = [
-    { icon: Users, value: "500+", label: "Happy Clients" },
-    { icon: Globe, value: "15+", label: "Countries Served" },
-    { icon: Building2, value: "50+", label: "Industries" },
+    { icon: Users, value: "1", label: "Happy Clients" },
+    { icon: Globe, value: "1", label: "Countries Served" },
+    { icon: Building2, value: "1", label: "Industries" },
     { icon: TrendingUp, value: "99%", label: "Client Retention" }
   ];
 
