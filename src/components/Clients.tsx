@@ -5,7 +5,7 @@ import { Star, Users, Building2, Globe, TrendingUp } from "lucide-react";
 const Clients = () => {
   const clients = [
     {
-      name: "TechSpark Software Solutions",
+      name: "",
       industry: "Software Development",
       services: ["Sales"],
       testimonial: "Kasvio Technology has transformed our customer support operations with their professional and efficient service delivery.",
