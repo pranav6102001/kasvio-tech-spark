@@ -4,7 +4,7 @@ import { Star, Users, Building2, Globe, TrendingUp } from "lucide-react";
 
 const Clients = () => {
   const stats = [
-    { icon: Users, value: "5+", label: "Happy Clients" },
+    { icon: Users, value: "1", label: "Happy Client" },
     { icon: Globe, value: "1", label: "Countries Served" },
     { icon: Building2, value: "2", label: "Industries Served" },
     { icon: TrendingUp, value: "99%", label: "Client Retention" }
