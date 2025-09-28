@@ -117,10 +117,6 @@ const Contact = () => {
                   <span className="text-muted-foreground">Udyam Registration:</span>
                   <span className="text-foreground font-medium ml-2">UDYAM-MH-23-0327987</span>
                 </div>
-                <div>
-                  <span className="text-muted-foreground">Client Partner:</span>
-                  <span className="text-foreground font-medium ml-2">TECHSPARK SOFTWARE SOLUTIONS PVT LTD</span>
-                </div>
               </CardContent>
             </Card>
           </div>
