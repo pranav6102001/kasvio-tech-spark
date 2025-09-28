@@ -3,21 +3,10 @@ import { Badge } from "@/components/ui/badge";
 import { Star, Users, Building2, Globe, TrendingUp } from "lucide-react";
 
 const Clients = () => {
-  const clients = [
-    {
-      name: "",
-      industry: "Software Development",
-      services: ["Sales"],
-      testimonial: "Kasvio Technology has transformed our customer support operations with their professional and efficient service delivery.",
-      rating: 5,
-      logo: "🚀"
-    }
-  ];
-
   const stats = [
-    { icon: Users, value: "1", label: "Happy Clients" },
+    { icon: Users, value: "5+", label: "Happy Clients" },
     { icon: Globe, value: "1", label: "Countries Served" },
-    { icon: Building2, value: "1", label: "Industries" },
+    { icon: Building2, value: "2", label: "Industries Served" },
     { icon: TrendingUp, value: "99%", label: "Client Retention" }
   ];
 
@@ -46,42 +35,6 @@ const Clients = () => {
                 <stat.icon className="h-8 w-8 text-primary mx-auto mb-3" />
                 <div className="text-2xl font-bold text-primary mb-1">{stat.value}</div>
                 <div className="text-sm text-muted-foreground">{stat.label}</div>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-
-        {/* Client Testimonials */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {clients.map((client, index) => (
-            <Card key={index} className="h-full hover:shadow-lg transition-shadow">
-              <CardContent className="p-6">
-                <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center space-x-3">
-                    <div className="text-2xl">{client.logo}</div>
-                    <div>
-                      <h3 className="font-semibold text-foreground">{client.name}</h3>
-                      <p className="text-sm text-muted-foreground">{client.industry}</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center space-x-1">
-                    {[...Array(client.rating)].map((_, i) => (
-                      <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
-                    ))}
-                  </div>
-                </div>
-                
-                <p className="text-muted-foreground mb-4 italic">
-                  "{client.testimonial}"
-                </p>
-                
-                <div className="flex flex-wrap gap-2">
-                  {client.services.map((service, serviceIndex) => (
-                    <Badge key={serviceIndex} variant="secondary" className="text-xs">
-                      {service}
-                    </Badge>
-                  ))}
-                </div>
               </CardContent>
             </Card>
           ))}
