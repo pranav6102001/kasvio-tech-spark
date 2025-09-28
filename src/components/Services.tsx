@@ -6,7 +6,11 @@ import {
   BarChart3, 
   Clock, 
   Shield,
-  ArrowRight
+  ArrowRight,
+  MapPin,
+  Plane,
+  Building2,
+  FileText
 } from "lucide-react";
 
 const Services = () => {
@@ -34,6 +38,18 @@ const Services = () => {
       title: "Technical Support",
       description: "Expert technical assistance and IT support services for your customers and internal teams.",
       features: ["Level 1-3 Support", "Software Troubleshooting", "Hardware Support", "System Monitoring"]
+    },
+    {
+      icon: Plane,
+      title: "Travel Agency Services",
+      description: "Complete travel management solutions for corporate and leisure travel with personalized service.",
+      features: ["Flight Bookings", "Hotel Reservations", "Travel Insurance", "Visa Assistance", "Tour Packages"]
+    },
+    {
+      icon: Shield,
+      title: "Insurance Agency Services", 
+      description: "Comprehensive insurance solutions and claims processing with expert guidance and support.",
+      features: ["Policy Management", "Claims Processing", "Risk Assessment", "Insurance Consultation", "Documentation Support"]
     }
   ];
 
@@ -53,7 +69,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <Card 
               key={index} 
