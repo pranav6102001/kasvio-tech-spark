@@ -118,12 +118,12 @@ const About = () => {
                     <span className="text-foreground font-medium">Kasvio Technology</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Udyam Registration:</span>
-                    <span className="text-foreground font-medium">UDYAM-MH-23-0327987</span>
+                    <span className="text-muted-foreground">Founder & CEO:</span>
+                    <span className="text-foreground font-medium">Pranav Kasture</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Client Partner:</span>
-                    <span className="text-foreground font-medium">TECHSPARK SOFTWARE SOLUTIONS PVT LTD</span>
+                    <span className="text-muted-foreground">Udyam Registration:</span>
+                    <span className="text-foreground font-medium">UDYAM-MH-23-0327987</span>
                   </div>
                 </div>
               </CardContent>
